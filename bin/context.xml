@@ -1,0 +1,9 @@
+<context id="StMaarten" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+<projection type="continuous space" id="space"/>  	
+<projection type="geography" id="Geography"/>
+<projection id="Grid" type="grid" />
+<projection id="Value Layer" type="value layer" />
+<projection id="Network" type="network" />
+</context>

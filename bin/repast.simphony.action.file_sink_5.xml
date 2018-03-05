@@ -1,0 +1,24 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Complete_File_Sink_Plan</name>
+  <dataSet>complete_result_Plan</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>House ID</string>
+    <string>ComplianceBO</string>
+    <string>ComplianceBP</string>
+    <string>ComplianceFZP</string>
+    <string>Elevated</string>
+    <string>FloodDepth</string>
+    <string>IsFlooded</string>
+    <string>Elevation</string>
+    <string>XY Coordinate</string>
+    <string>PlanID</string>
+    <string>PlanComplianceBO</string>
+    <string>PlanComplianceBP</string>
+    <string>PlanComplianceFZP</string>
+  </sourceIds>
+  <fileName>Plan_CompleteOutput.csv</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

@@ -1,0 +1,55 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>complete_result_Plan</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>physicalStructure.Plan</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>0.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1970236363</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>PlanComplianceBO</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>PlanComplianceBO</id>
+        <className>physicalStructure.Plan</className>
+        <methodName>getPlanComplianceBO</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>PlanComplianceBP</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>PlanComplianceBP</id>
+        <className>physicalStructure.Plan</className>
+        <methodName>getPlanComplianceBP</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>PlanComplianceFZP</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>PlanComplianceFZP</id>
+        <className>physicalStructure.Plan</className>
+        <methodName>getPlanComplianceFZP</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>PlanID</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>PlanID</id>
+        <className>physicalStructure.Plan</className>
+        <methodName>toString</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
