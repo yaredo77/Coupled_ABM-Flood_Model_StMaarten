@@ -17,4 +17,5 @@ The first three packages are based on the MAIA structure – the collective and 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 References
+
 Ghorbani, A., Bots, P., Dignum, V., Dijkema, G., 2013. MAIA: a Framework for Developing Agent-Based Social Simulations. JASSS 16, 9. https://doi.org/10.18564/jasss.2166
