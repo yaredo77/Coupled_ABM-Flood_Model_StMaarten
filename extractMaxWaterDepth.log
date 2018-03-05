@@ -1,0 +1,48 @@
+================================================================================
+= T2Stat: Program for calculating statistics on Matrix series
+================================================================================
+
+------- Input file ---------------------------------
+		FileName : E:\StMaarten\data\hydrodynamic_data\MIKE21\Result\Result10.dfs2
+		Items:  1, 
+
+------- Timeseries info ----------------------------
+		First Time Step: 0
+		Last Time Step : 36
+
+------- Selected subarea ----------------------------
+		X - First: 0
+		X - Last: 1886
+		Y - First: 0
+		Y - Last: 1160
+
+------- Selected statistics ------------------------
+		Statistics: Maximum values
+
+------- Output file --------------------------------
+		FileName : E:\StMaarten\data\hydrodynamic_data\MIKE21\Result\max_depth.dfs2
+		Title : 
+
+--------------------------- Data File Summary -------------------------
+
+ File Description:
+  File name   : E:\StMaarten\data\hydrodynamic_data\MIKE21\Result\max_depth.dfs2
+
+  Title  : 
+  Delete value : -1e-030   
+
+  Axes   Sets   Start   Interval     Unit     Phys. start
+     1  1887     0.0     10.0       meter    -6.3173e+001 
+     2  1161     0.0     10.0       meter     1.7963e+001
+
+  Description                Minimum       Maximum         Missing
+  H Water Depth               0.00014     250.24835   427918.00000
+-----------------------------------------------------------------------
+
+--------------- RUN TIME INFORMATION --------------
+--
+-- CPU time        : 10 [s]
+--
+-- Completion code : Successful
+--
+---------------------------------------------------
