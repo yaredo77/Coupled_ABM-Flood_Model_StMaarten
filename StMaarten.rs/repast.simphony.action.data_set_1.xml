@@ -1,0 +1,95 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>complete_result_House</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>physicalStructure.House</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>0.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1970236363</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>ComplianceBO</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ComplianceBO</id>
+        <className>physicalStructure.House</className>
+        <methodName>getComplianceBO</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>IsFlooded</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>IsFlooded</id>
+        <className>physicalStructure.House</className>
+        <methodName>getIsFlooded</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ComplianceBP</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ComplianceBP</id>
+        <className>physicalStructure.House</className>
+        <methodName>getComplianceBP</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ComplianceFZP</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ComplianceFZP</id>
+        <className>physicalStructure.House</className>
+        <methodName>getComplianceFZP</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Elevated</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Elevated</id>
+        <className>physicalStructure.House</className>
+        <methodName>getElevated</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Elevation</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Elevation</id>
+        <className>physicalStructure.House</className>
+        <methodName>getElevation</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>House ID</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>House ID</id>
+        <className>physicalStructure.House</className>
+        <methodName>toString</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>FloodDepth</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>FloodDepth</id>
+        <className>physicalStructure.House</className>
+        <methodName>getFloodDepth</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>XY Coordinate</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>XY Coordinate</id>
+        <className>physicalStructure.House</className>
+        <methodName>getXyCoorString</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

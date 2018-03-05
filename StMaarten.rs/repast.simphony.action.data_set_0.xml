@@ -1,0 +1,127 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Output Data</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>0.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>257017981</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map">
+    <entry>
+      <string>BO No (cum)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BO No (cum)</id>
+        <dsClassName>mainDataCollection.DataBuildingOrdinanceNo</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>BP Yes (cum)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BP Yes (cum)</id>
+        <dsClassName>mainDataCollection.DataBeachPolicyYes</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>BP No (cum)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BP No (cum)</id>
+        <dsClassName>mainDataCollection.DataBeachPolicyNo</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>FZP Yes (cum)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>FZP Yes (cum)</id>
+        <dsClassName>mainDataCollection.DataFloodZonePolicyYes</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>FZP No (cum)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>FZP No (cum)</id>
+        <dsClassName>mainDataCollection.DataFloodZonePolicyNo</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Elevated houses (cum)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Elevated houses (cum)</id>
+        <dsClassName>mainDataCollection.DataElevatedHouses</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>BO No flooded (per tick)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BO No flooded (per tick)</id>
+        <dsClassName>mainDataCollection.DataBuildingOrdinanceNoFlooded</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>FZP Yes flooded (per tick)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>FZP Yes flooded (per tick)</id>
+        <dsClassName>mainDataCollection.DataFloodZonePolicyYesFlooded</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Flooded houses (per tick)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Flooded houses (per tick)</id>
+        <dsClassName>mainDataCollection.DataFloodedHouses</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Total number of houses</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Total number of houses</id>
+        <dsClassName>mainDataCollection.DataTotalNumberOfHouses</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>BO Yes (cum)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BO Yes (cum)</id>
+        <dsClassName>mainDataCollection.DataBuildingOrdinanceYes</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>BO Yes but flooded (per tick)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BO Yes but flooded (per tick)</id>
+        <dsClassName>mainDataCollection.DataBuildingOrdinanceYesFlooded</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>FZP No flooded (per tick)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>FZP No flooded (per tick)</id>
+        <dsClassName>mainDataCollection.DataFloodZonePolicyNoFlooded</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>catchmentName</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>catchmentName</id>
+        <dsClassName>mainDataCollection.CatchmentsWithSMData</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>BP No flooded (per tick)</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BP No flooded (per tick)</id>
+        <dsClassName>mainDataCollection.DataBeachPolicyNoFlooded</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+  </customAggDataSources>
+</repast.simphony.data2.engine.DataSetDescriptor>

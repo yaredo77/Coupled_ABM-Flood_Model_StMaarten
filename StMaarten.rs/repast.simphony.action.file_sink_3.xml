@@ -1,0 +1,26 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Output Sink</name>
+  <dataSet>Output Data</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>BP Yes (cum)</string>
+    <string>BP No (cum)</string>
+    <string>BO Yes (cum)</string>
+    <string>BO No (cum)</string>
+    <string>FZP Yes (cum)</string>
+    <string>FZP No (cum)</string>
+    <string>Elevated houses (cum)</string>
+    <string>BP No flooded (per tick)</string>
+    <string>BO Yes but flooded (per tick)</string>
+    <string>BO No flooded (per tick)</string>
+    <string>FZP Yes flooded (per tick)</string>
+    <string>FZP No flooded (per tick)</string>
+    <string>Flooded houses (per tick)</string>
+    <string>Total number of houses</string>
+    <string>catchmentName</string>
+  </sourceIds>
+  <fileName>ModelOutput.csv</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>
