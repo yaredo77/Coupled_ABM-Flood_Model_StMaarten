@@ -14,7 +14,7 @@ The code has five packages:
 
 The first three packages are based on the MAIA structure – the collective and physical structures create the agent and object classes while the operational structure stores three action situation classes. These classes define the most important human and flood dynamics. The other two packages are based on the RS architecture. The StMaarten builder package implements model initialization and the MainDataCollection package implements result collection and creating csv outputs.
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 References
 
