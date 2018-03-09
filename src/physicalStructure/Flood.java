@@ -1,6 +1,22 @@
 /**
- * 
+ * Copyright (c) [2018] [Yared Abayneh Abebe]
+ *
+ * This file is part of Coupled_ABM-Flood_Model.
+ * Coupled_ABM-Flood_Model is free software licensed under the CC BY-NC-SA 4.0
+ * You are free to:
+ *	 Share — copy and redistribute the material in any medium or format
+ *   Adapt — remix, transform, and build upon the material
+ * The licensor cannot revoke these freedoms as long as you follow the license terms.
+ *	 Attribution — You must give appropriate credit, provide a link to the license, 
+ *				  and indicate if changes were made. You may do so in any reasonable 
+ *				  manner, but not in any way that suggests the licensor endorses you 
+ *				  or your use.
+ *	 NonCommercial — You may not use the material for commercial purposes.
+ *	 ShareAlike — If you remix, transform, or build upon the material, you must distribute 
+ *				 your contributions under the same license as the original. 
+ *   Full license description: https://creativecommons.org/licenses/by-nc-sa/4.0/
  */
+ 
 package physicalStructure;
 
 import repast.simphony.engine.environment.RunEnvironment;
@@ -8,8 +24,6 @@ import repast.simphony.engine.schedule.ScheduledMethod;
 //import repast.simphony.random.RandomHelper;
 
 /**
- * @author abebe8
- * 
  * Each time step, we decide if there will be flood or not. However, if there is flood, the random 
  * selection of return periods is based on the probability of occurrence inherent in the return periods. 
  * For example, the probability of occurrence of a flood having 100year recurrence interval in any 
@@ -19,7 +33,9 @@ import repast.simphony.engine.schedule.ScheduledMethod;
  * event happens in each time step.
  * (http://codetheory.in/weighted-biased-random-number-generation-with-javascript-based-on-probability/)
  * 
- * Assumption - Design rainfall magnitudes for the given recurrence intervals are the same throughout the simulation period.
+ * Assumption 
+ *			- Design rainfall magnitudes for the given recurrence intervals are the same throughout the simulation period,
+ *			  i.e., no intensification of rainfall due to climate change 
  *
  */
 public class Flood {

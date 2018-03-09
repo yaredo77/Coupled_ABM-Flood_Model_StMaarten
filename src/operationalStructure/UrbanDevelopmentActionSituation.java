@@ -1,6 +1,22 @@
 /**
- * 
+ * Copyright (c) [2018] [Yared Abayneh Abebe]
+ *
+ * This file is part of Coupled_ABM-Flood_Model.
+ * Coupled_ABM-Flood_Model is free software licensed under the CC BY-NC-SA 4.0
+ * You are free to:
+ *	 Share — copy and redistribute the material in any medium or format
+ *   Adapt — remix, transform, and build upon the material
+ * The licensor cannot revoke these freedoms as long as you follow the license terms.
+ *	 Attribution — You must give appropriate credit, provide a link to the license, 
+ *				  and indicate if changes were made. You may do so in any reasonable 
+ *				  manner, but not in any way that suggests the licensor endorses you 
+ *				  or your use.
+ *	 NonCommercial — You may not use the material for commercial purposes.
+ *	 ShareAlike — If you remix, transform, or build upon the material, you must distribute 
+ *				 your contributions under the same license as the original. 
+ *   Full license description: https://creativecommons.org/licenses/by-nc-sa/4.0/
  */
+ 
 package operationalStructure;
 
 import java.util.ArrayList;
@@ -18,8 +34,6 @@ import stMaarten.GlobalVariables;
 import stMaarten.StMaartenBuilder;
 
 /**
- * @author abebe8
- * 
  * This class implements the Urban Development Action situation. This action situation consists of the following entity actions:
  * 			- Determine number of new buildings
  * 			- Make plan
@@ -38,11 +52,11 @@ import stMaarten.StMaartenBuilder;
  * In this particular case study, economic situations of households are not considered because of lack of data. 
  * However, incorporating economic model (including insurance) would enrich the model. 
  *
- * @assumptions: - Households are static. 
- *               - A household owns one house. The reverse is also true.
- *               - If a household decides to implement measures, the assumption is that it has enough financial resource.
- *               - All houses are assumed to be of the same use/function (i.e., all are residential).
- *               - Only new houses apply measures such as elevated floors and green roofs.
+ * Assumptions: - Households are static. 
+ *              - A household owns one house. The reverse is also true.
+ *              - If a household decides to implement measures, the assumption is that it has enough financial resource.
+ *              - All houses are assumed to be of the same use/function (i.e., all are residential).
+ *              - Only new houses apply measures such as elevated floors and green roofs.
  * 
  * @param beachPolicyCompliance
  * @param distanceFromSea

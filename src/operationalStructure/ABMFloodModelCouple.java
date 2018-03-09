@@ -1,6 +1,22 @@
 /**
- * 
+ * Copyright (c) [2018] [Yared Abayneh Abebe]
+ *
+ * This file is part of Coupled_ABM-Flood_Model.
+ * Coupled_ABM-Flood_Model is free software licensed under the CC BY-NC-SA 4.0
+ * You are free to:
+ *	 Share — copy and redistribute the material in any medium or format
+ *   Adapt — remix, transform, and build upon the material
+ * The licensor cannot revoke these freedoms as long as you follow the license terms.
+ *	 Attribution — You must give appropriate credit, provide a link to the license, 
+ *				  and indicate if changes were made. You may do so in any reasonable 
+ *				  manner, but not in any way that suggests the licensor endorses you 
+ *				  or your use.
+ *	 NonCommercial — You may not use the material for commercial purposes.
+ *	 ShareAlike — If you remix, transform, or build upon the material, you must distribute 
+ *				 your contributions under the same license as the original. 
+ *   Full license description: https://creativecommons.org/licenses/by-nc-sa/4.0/
  */
+ 
 package operationalStructure;
 
 import java.io.BufferedReader;
@@ -50,8 +66,6 @@ import collectiveStructure.Household;
 import mainDataCollection.CatchmentsWithSM;
 
 /**
- * @author abebe8
- * 
  * This class couples the agent-based model with a hydrodynamic model (1D-2D flood model). The process of coupling is
  * 1. based on development conditions in ABM, the curve numbers (CN) of each subcatchment is updated in StMaartenBuilder.subcatchmentCNList.
  * If the return period is greater than or equal to 5,
@@ -59,7 +73,7 @@ import mainDataCollection.CatchmentsWithSM;
  * 3. 1D-2D flood model runs and produces result file (for example, in case of MIKE Flood, the result file is .dfs2 file).
  * 4. the result file is post-processed. The ABM reads only a raster file in geotiff format. In case of .dfs2 result:
  * 		1. extract the maximum flood depth using MIKEZero Statistics toolbox (the result is another .dfs2 file).
- * 		2. convert the .dfs2 file to ascii grid format using MIKEZero GIS toolbox.
+ * 		2. convert the .dfs2 file to ASCII grid format using MIKEZero GIS toolbox.
  * 5. load the maximum flood depth and assess impact
  * 
  * 6. if structural FRM measure is implemented, update the network file if a new network or a hydraulic structure is implemented, 

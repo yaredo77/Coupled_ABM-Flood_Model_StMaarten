@@ -1,6 +1,22 @@
 /**
- * 
+ * Copyright (c) [2018] [Yared Abayneh Abebe]
+ *
+ * This file is part of Coupled_ABM-Flood_Model.
+ * Coupled_ABM-Flood_Model is free software licensed under the CC BY-NC-SA 4.0
+ * You are free to:
+ *	 Share — copy and redistribute the material in any medium or format
+ *   Adapt — remix, transform, and build upon the material
+ * The licensor cannot revoke these freedoms as long as you follow the license terms.
+ *	 Attribution — You must give appropriate credit, provide a link to the license, 
+ *				  and indicate if changes were made. You may do so in any reasonable 
+ *				  manner, but not in any way that suggests the licensor endorses you 
+ *				  or your use.
+ *	 NonCommercial — You may not use the material for commercial purposes.
+ *	 ShareAlike — If you remix, transform, or build upon the material, you must distribute 
+ *				 your contributions under the same license as the original. 
+ *   Full license description: https://creativecommons.org/licenses/by-nc-sa/4.0/
  */
+ 
 package stMaarten;
 
 import java.io.BufferedReader;
@@ -55,19 +71,16 @@ import com.vividsolutions.jts.geom.Polygon;
 
 
 /**
- * @author abebe8
- * 
  * This class loads all geo-referenced files. Some of them are loaded for the sole purpose of display functionality.
  * Households, their houses and attributes, catchments, subcatchments, coastline, floodzones are initialised in this class.
  * 
- * @assumptions: 
+ * Assumptions: 
  * 		- buildings, houses and developments represent the same thing, i.e., residential houses
  * 		- all the buildings are residential.
  * 		- all buildings are represented by a single point feature.
  * 
  * @param initialNumberOfHouseholds
  * @param initial_percentage_of_elevated_houses
- * 
  */
 public class StMaartenBuilder implements ContextBuilder<Object> {
 
