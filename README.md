@@ -28,6 +28,7 @@ A simulation runs for 30 years in which one time step represents one year. The e
 
 #### Process overview and Scheduling
 There are three processes in the coupled model: urban development and vulnerability/exposure considerations, ABM-flood model coupling, and flood hazard reduction.
+
 i.	Urban development and vulnerability/exposure considerations: the following sub-processes happen in order in each time step – urban building expansion, making plan, implementing BP, implementing FZ, implementing BO and building houses (see *UrbanDevelopmentActionSituation.java* under the *operationalStructure* package). If a household follows the FZ and elevate the house, the sub-process ‘implementing BO’ does not run as the house would already be elevated.
 
 ii.	ABM-flood model coupling: the following sub-processes run in order – compute catchments curve number (based on new developments) and update flood model rainfall-runoff file, call and run the flood model, geoprocess flood model result (i.e., flood map), assess impact (check if houses are flooded) and update household agents’ attribute (see *ABMFloodModelcouple.java* under the *operationalStructure* package).  All the sub-processes run if there is flood-causing rainfall in a given time step.
