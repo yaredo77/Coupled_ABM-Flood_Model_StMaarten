@@ -53,6 +53,9 @@ The coupled ABM-flood model simulation is initialized by loading features from s
 #### Input
 In addition to the shapefiles mentioned above, an event series of rainfall is defined. We assume that there is a maximum of one flood event in a given time step. In this case, we generate a hypothetical design rainfall event series (see *Flood.java* under the *physicalstructure* package). As shown in Figure 1, at each time step, if there is a flood-generating rainfall event (we assume that in Sint Maarten only rainfall events with a recurrence interval of 5 years and above cause flooding), the design rainfall of the event is specified. However, the time series of the rainfall event, which includes the duration and intensity of the rainfall, is defined in the flood model. For the flood model, a raster topography/bathymetry data, drainage network and cross-section data, boundary data and hydrodynamic data are required.
 
+![](Images/RainfallEventSeries.png)
+Figure 1. Input design rainfall events. It shows discrete recurrence intervals in years assuming that there is a maximum of one major flood event per time step.
+
 #### Submodels
 **Urban housing expansion**: In this model, the housing expansion mechanism is simplified in which the number and locations of new houses are based on the building permits issued by VROMI (Ministry of Public Housing, Spatial Planning, Environment and Infrastructure of the Government of Sint Maarten) and on the National Development Plan (NDP). A map provided with the NDP delineates residential areas showing existing and future housing parcels. We extracted the future housing locations and these locations are available for new household agents to randomly choose. 
 
